@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute Position</title>
+    <style>
+        .box{
+            height:300px;
+            width:300px;
+            background-color: #d9ffcc;
+            margin:30px;
+            position: relative;
+            left:50px;
+            top:40px;
+           
+        }
+        .btn{
+            border:none;
+            background-color: #cce6ff;
+            color:#0069cc;
+            border:2px solid #0069cc;
+            border-radius: 0 20px  0 20px;
+            padding:10px;
+            position: absolute;
+            right:0;
+            right:-20px;
+            top:-20px;
+
+        }
+        .img{
+            height: 100px;
+            position:absolute;
+            left:100px;
+            top:-40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="man.png" class="img"/>
+        <button class="btn">User</button>
+    </div>
+</body>
+</html>
